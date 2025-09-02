@@ -142,4 +142,30 @@
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
+.bg1{
+  background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/911bff9fca5209b94dd22bcba795eefdd4b71993.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  width: 100%;
+}
+.img1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
 
+.img1 img{
+  margin-top: 20%;
+  max-width: 90%;
+  height: 1150px;
+}
+
+.img2 img{
+  padding: 20px 0 0 0;
+  width: 150px;
+  height: auto;
+  margin-left: 280px;
+}
