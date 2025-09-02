@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  width: 100%;
+  background-color:#000;
+  padding: 30px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+#i1{
+  height: 40px;
+  margin-left: 30px;
+}
+
+#i2{
+  height: 30px;
+  margin-left: 50px;
+}
+
+.nav-links{
+  list-style: none;
+  gap: 50px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  position: relative;
+  padding: 5px 0;
+}
+.nav-links li .b1::after{
+     content: '';
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: -35px; 
+}
+  .nav-links li a:hover::after {
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: -35px;  
+      transition: background-color 0.3s ease;
+    }
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 5px;
+}
+
+.buy-btn {
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 20px;
+}
+
+.buy-btn:hover{
+  background-color: white;
+  color: #000;
+}
+
+
+#bg {
+    background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/3871/07edb091bb329145ee3f3f01476adb40acc6457b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    position: relative;
+    display: flex;                      
+}
+
+#bg .bg_content {
+  color: white;
+  max-width: 900px;
+  margin-left: 60px;
+  margin-top: 250px;
+}
+
+#bg .bg_content h1{
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 1px 1px 4px #000 ;
+}
+
+#bg .bg_content p{
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.hero-buttons .hero-btn{
+  padding: 20px 70px 20px 70px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px; 
+}
+
+.hero-buttons .hero-btn:hover {
+  background-color: white;
+  color: #000;
+  font-size: 17px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+
